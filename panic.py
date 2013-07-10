@@ -110,16 +110,25 @@ Database = [
 	['date', 'The date is ' + datestr],
 	['time', 'The time is ' + timestr],
 	['weather', weatherStr],
-	['meaning of life', 'The answer to life, the universe and everything is 42'],
+	['meaning life', 'The answer to life, the universe and everything is 42'],
 	['your opinion', 'I am a neutral party and therefore I like to keep my opinion to myself.', 'Always enjoyable.', 'Personally I\'m not interested at all.'],
-	['favourite food', 'Raspberry Pie'],
+	['favourite food', 'Raspberry Pi'],
 	['you look like', 'Lots of symbols and characters'],
 	['where am i', 'You are currently at the University of Essex'],
 	['favourite colour', 'My favourite colour is green, the colour of circuit boards'],
 	['direction Colchester Sixth Form', directions],
 	['tell joke', "Three statisticians go out hunting together. After a while they spot a solitary rabbit. The first statistician takes aim and overshoots. The second aims and undershoots. The third shouts out: We got him!", "There are 10 types of people in the world: those who understand binary, and those who don't", "Bad command or file name! Go stand in the corner", "Does fuzzy logic tickle?", "Helpdesk : Sir, you need to add 10GB space to your HD , Customer : Could you please tell where I can download that?", "Sorry, the password you tried is already being used by Dorthy, please try something else.", "root:> Sorry, you entered the wrong password, the correct password is 'a_49qwXk'", "Man is the best computer we can put aboard a spacecraft...and the only one that can be mass produced with unskilled labour"],
 	['thank you', 'You\'re welcome'],
-	['picture henry', henry]
+	['picture henry', henry],
+	['yes', 'I most certainly agree'],
+	['no', 'Are you sure?'],
+	['who geraint', 'Some maths nerd who had something to do with my creation.'],
+	['no not', 'Actually I believe it is. You are mistaken.'],
+	['you sure', 'Of course I am sure. I am always sure. What do you take me for, some kind of idiot?'],
+	['indeed', 'Well, quite.'],
+	['how old sun', 'The Sun is abut 4.5 billion years old. Assuming you mean the star. The newspaper is much much younger but with some luck, should die earlier.'],
+	['who charlie callow', 'Charlie William Andrew Callow. Quite possibly the greatest indivdual ever to walk to planet. Also known by some as Charlie O\'Connell and by the alias wollac or wollac11'],
+	['who henry plumb', 'Some short guy who hates sunlight but helped to create me along with Geraint White and Charlie Callow.'],
 ]
 
 
