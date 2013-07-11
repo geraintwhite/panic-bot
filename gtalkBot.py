@@ -54,4 +54,4 @@ class SampleBot(GtalkRobot):
 if __name__ == "__main__":
     bot = SampleBot()
     bot.setState('available', "testing gtalk bot")
-    bot.start("mail.itsapi@gmail.com", raw_input('password: '))
+    bot.start(raw_input('Email address: '), raw_input('Password: '))
