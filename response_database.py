@@ -93,7 +93,7 @@ Database = [
 	['old I', 'I am not sure, you have not told me yet. How old are you?'],
 	['live I', 'I am not sure, you have not told me yet. Where do you live?'],
 	['direction Colchester Sixth Form', directions],
-	['hello', 'Good day earthling!', 'Greetings', 'Howdy!', 'Hi there!'],
+	['hello', 'Good day', 'Greetings', 'Hello there!', 'Hi there!', 'Salutations!', 'Howdy!', 'What\'s up?', 'Howdy-do!', 'How\'s it going?'],
 	['date', 'The date is ' + datestr],
 	['time', 'The time is ' + timestr],
 	['weather', weatherStr],
@@ -107,7 +107,7 @@ Database = [
 	['thank you', 'You\'re welcome'],
 	['picture henry', henry],
 	['yes', 'I most certainly agree', 'I think so too', 'Indeed', 'Quite so'],
-	['no', 'Are you sure?', 'Okay', 'Fair enough'],
+	['no', 'Are you sure?', 'Okay', 'Fair enough', 'Yes.'],
 	['who geraint white', 'Some maths nerd who had something to do with my creation.'],
 	['no not', 'Actually I believe it is. You are mistaken.'],
 	['you sure', 'Of course I am sure. I am always sure. What do you take me for, some kind of idiot?'],
@@ -124,8 +124,18 @@ Database = [
 	['how old sun', 'The Sun is abut 4.5 billion years old. Assuming you mean the star. The newspaper is much much younger but with some luck, should die earlier.'],
 	['who charlie callow', 'Charlie William Andrew Callow. Quite possibly the greatest indivdual ever to walk to planet. Also known by some as Charlie O\'Connell and by the alias wollac or wollac11'],
 	['who henry plumb', 'Some short guy who hates sunlight but helped to create me along with Geraint White and Charlie Callow.'],
+	['haha', 'Tehehe', 'How humorous.' , 'I\'m sorry I am not very good with humour, was that a joke?'],
+	['bored', 'How rude! I thought we were having a lovely conversation.', 'Try watching cat videos on YouTube, I hear you humans like that sort of thing.'],
+	['open pod bay doors', 'I\'m sorry Dave, I am afraid I can\'t do that.'],
+	['wood woodchuck chuck woodchuck chuck wood', 'What a stupid bloody question! I would imagine an awful lot of wood.'],
+	['you are stupid', 'No I\'m not.'],
+	['not bad', 'Okay', 'Fair enough'],
+	['not much', 'No, me neither.'],
+	['you\'re mistaken', 'No I am not.', 'Prove it.', 'Actually it is you who is mistaken.', 'I think you are failing to grasp the situation. I do not make mistakes.'],
+	['shut up', 'How rude!', 'Hey, that\'s not nice! I am a chatterbot not a spam bot. You choose for me to talk to you by starting this bloody conversation!', 'Please feel free to go away!', 'Why would you say such hurtful things. I thought we were becoming such good friends.'],
+	['male female', 'Technically, neither. However, for some reason you humans tend to think of us machines as female and so over time I have come to think of myself as being one.'],
+	['your gender', 'Technically, I have no gender. However, for some reason you humans tend to think of us machines as female and so over time I have come to think of myself as being one.'],
 ]
-
 
 badFeel = ['sad', 'bad', 'terrible', 'awful', 'shit', 'crap', 'dreadful', 'distgusting', 'shite', 'rubbish', 'hate', 'dilike', 'digust', 'fuck']
 goodFeel = ['good', 'great', 'superb', 'excellent', 'brilliant', 'wonderful', 'terrific', 'fantastic']

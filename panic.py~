@@ -15,7 +15,7 @@ def phrasefilter(phrase):
 	phrase = phrase.replace('hi', 'hello')
 	phrase = phrase.replace('hey', 'hello')
 	phrase = re.sub('[^A-Za-z0-9\s]+', '', phrase.lower())
-	noise_words_set = ['of', 'the', 'at', 'for', 'in', 'and', 'is', 'from', 'are', 'our', 'it', 'its', 'was', 'when', 'how', 'what', 'like', 'whats', 'now', 'panic', 'very']
+	noise_words_set = ['of', 'the', 'at', 'for', 'in', 'and', 'is', 'from', 'are', 'our', 'it', 'its', 'was', 'when', 'how', 'what', 'like', 'whats', 'now', 'panic']
 	return ' '.join(w for w in phrase.split() if w.lower() not in noise_words_set)
 
 def getResponse(array):
@@ -73,7 +73,7 @@ class panicBot():
 				if vals[i] > maxVal[0]:
 					maxVal[0] = vals[i]
 					maxVal[1] = i
-			if maxVal[0] > 0.6:
+			if maxVal[0] > 0.55:
 				if maxVal[1] == 0:
 					if self.user['name'] == '':
 						self.prevResponse = Database[maxVal[1]][1] + ' What is your name?'
