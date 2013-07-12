@@ -5,7 +5,8 @@ import panic
 from PyGtalkRobot import GtalkRobot
 
 #########################################################################################
-chatBot = panic.panicBot()
+
+users = {}
 
 class SampleBot(GtalkRobot):
     
@@ -47,7 +48,14 @@ class SampleBot(GtalkRobot):
     #This method is used to response users.
     def command_100_default(self, user, message, args):
         '''.*?(?s)(?m)'''
-        reply = chatBot.takeInput(message)
+        email = user.getStripped()
+        print email
+        try:
+            reply = users[email].takeInput(message)
+        except:
+            users[email] = panic.panicBot()
+            self.replyMessage(user, users[email].printLogo())
+            reply = users[email].takeInput(message)
         self.replyMessage(user, reply)
 
 #########################################################################################

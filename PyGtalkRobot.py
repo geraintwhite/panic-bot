@@ -169,7 +169,7 @@ class GtalkRobot:
     # "debug" parameter specifies the debug IDs that will go into debug output.
     # You can either specifiy an "include" or "exclude" list. The latter is done via adding "always" pseudo-ID to the list.
     # Full list: ['nodebuilder', 'dispatcher', 'gen_auth', 'SASL_auth', 'bind', 'socket', 'CONNECTproxy', 'TLS', 'roster', 'browser', 'ibb'].
-    def __init__(self, server_host="talk.google.com", server_port=5223, debug=[]):
+    def __init__(self, server_host="gmail.com", server_port=5222, debug=[]):
         self.debug = debug
         self.server_host = server_host
         self.server_port = server_port
@@ -189,7 +189,7 @@ class GtalkRobot:
         
         authres=self.conn.auth(user, password)
         if not authres:
-            print "Unable to authorize on %s - Plsese check your name/password."%server
+            print "Unable to authorize on %s - Please check your name/password."%server
             sys.exit(1)
         if authres<>"sasl":
             print "Warning: unable to perform SASL auth os %s. Old authentication method used!"%server
