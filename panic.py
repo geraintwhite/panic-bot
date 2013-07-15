@@ -33,7 +33,6 @@ class panicBot():
 	def printLogo(self):
 		return intro
 
-<<<<<<< HEAD
 	def takeInput(self, message):
 		out = ''
 		if self.prevResponse in Database[3]:
