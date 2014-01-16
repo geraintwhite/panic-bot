@@ -1,4 +1,5 @@
-PAnIC - Python Artificial Intelligence Computer
-===============================================
+PAnIC
+=====
+Python Artificial Intelligence Computer
 
 Usage: `python gtalkBot.py email password`
